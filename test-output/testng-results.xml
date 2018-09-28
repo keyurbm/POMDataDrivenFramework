@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29349" started-at="2018-09-28T14:59:06Z" finished-at="2018-09-28T14:59:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29349" started-at="2018-09-28T14:59:06Z" finished-at="2018-09-28T14:59:35Z">
+      <class name="com.test.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.qa.testcases.LoginPageTest@204f30ec]" name="setup" is-config="true" duration-ms="12492" started-at="2018-09-28T14:59:06Z" finished-at="2018-09-28T14:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.test.qa.testcases.LoginPageTest@204f30ec]" name="loginPageTitleTest" duration-ms="48" started-at="2018-09-28T14:59:19Z" finished-at="2018-09-28T14:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.qa.testcases.LoginPageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="740" started-at="2018-09-28T14:59:19Z" finished-at="2018-09-28T14:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.qa.testcases.LoginPageTest@204f30ec]" name="setup" is-config="true" duration-ms="10843" started-at="2018-09-28T14:59:21Z" finished-at="2018-09-28T14:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:2, instance:com.test.qa.testcases.LoginPageTest@204f30ec]" name="loginTest" duration-ms="2571" started-at="2018-09-28T14:59:32Z" data-provider="getLoginTestData" finished-at="2018-09-28T14:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nividoustest1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nividous@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.qa.testcases.LoginPageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="747" started-at="2018-09-28T14:59:35Z" finished-at="2018-09-28T14:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
